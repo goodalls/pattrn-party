@@ -16,28 +16,57 @@
     <h1>PATTRN <span class="party">PARTY</span></h1>
     <h2>Jeff Goodall</h2>
   </header>
-  <h4>Accordion Tabs</h4><hr class="line"></hr>
-  <div class="tab">
-    <button class="tablinks" onclick="openCity(event, 'London')">tab1</button>
-    <button class="tablinks" onclick="openCity(event, 'Paris')">tab2</button>
-    <button class="tablinks" onclick="openCity(event, 'Tokyo')">tab3</button>
-  </div>
 
-  <!-- Tab content -->
-  <div id="London" class="tabcontent">
-    <h3>headline1</h3>
-    <p>ipsum stuff</p>
-  </div>
+ <section>
+    <h4>Accordion Tabs</h4>
+    <hr class="line"></hr>
 
-  <div id="Paris" class="tabcontent">
-    <h3>headline2</h3>
-    <p>ipsum stuff</p>
-  </div>
-
-  <div id="Tokyo" class="tabcontent">
-    <h3>headline3</h3>
-    <p>ipsum stuff</p>
-  </div>
+    <div class="tab">
+      <button class="tablinks" name='tab1'>tab1</button>
+      <button class="tablinks" name='tab2'>tab2</button>
+      <button class="tablinks" name='tab3'>tab3</button>
+    </div>
+  
+    <!-- Tab content -->
+    <div id="tab1" class="tabcontent">
+        <div class='content-wrapper'>
+          <div class='image-placeholder'>
+            <img src="https://www.axiapayments.com/wp-content/uploads/2014/09/placeholder-square.jpg" />
+          </div>
+          <div>
+            <h3>headline1</h3>
+            <hr class='line'>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad tempore rerum veniam alias necessitatibus temporibus!</p>
+          </div>
+        </div>
+      </div>
+  
+    <div id="tab2" class="tabcontent">
+        <div class='content-wrapper'>
+          <div class='image-placeholder'>
+            <img src="https://www.axiapayments.com/wp-content/uploads/2014/09/placeholder-square.jpg" />
+          </div>
+          <div>
+            <h3>headline2</h3>
+            <hr class='line'>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad tempore rerum veniam alias necessitatibus temporibus!</p>
+          </div>
+        </div>
+      </div>
+  
+    <div id="tab3" class="tabcontent">
+      <div class='content-wrapper'>
+        <div class='image-placeholder'>
+          <img src="https://www.axiapayments.com/wp-content/uploads/2014/09/placeholder-square.jpg" />
+        </div>
+        <div>
+          <h3>headline3</h3>
+          <hr class='line'>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad tempore rerum veniam alias necessitatibus temporibus!</p>
+        </div>
+      </div>
+    </div>
+ </section>
 
 
   <script src="./script.js"></script>
